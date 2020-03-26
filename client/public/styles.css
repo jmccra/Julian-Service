@@ -1,0 +1,152 @@
+body{
+
+}
+
+.checkout{
+  height: 300px;
+  width: 200px;
+  background-color: #f2f2f0;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.pricetext{
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.pricecost{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  /* font-weight: bold; */
+  color: #f1731f;
+  padding-left: 60px;
+  align-self: right;
+}
+
+.addToCart{
+  padding: 8px;
+  width: 160px;
+  margin-left: 10px;
+  text-align: center;
+  background-color: #f56607;
+  border-radius: 5px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.25),
+    0 1px 0 rgba(255, 255, 255, 0.25) inset,
+    0 0 0 rgba(143, 143, 143, 0.5) inset,
+    0 1.25rem 0 rgba(255, 255, 255, 0.08) inset,
+    0 -1.25rem 1.25rem rgba(139, 139, 139, 0.3) inset,
+    0 1.25rem 1.25rem rgba(255, 255, 255, 0.1) inset;
+
+  /* transition: all 0.2s linear 0s; */
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.addText{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.arrow{
+  width: 0;
+  height: 0;
+  border-left: 5px solid white;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  float: right;
+  display: block;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+.earnRewards{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  margin: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px lightgray;
+  line-height: 1.5;
+
+}
+
+.orange{
+ color: #f1731f;
+}
+
+.link:hover{
+  cursor: pointer;
+}
+
+.linkunderline:hover{
+  text-decoration: underline;
+
+}
+
+.hotDeals{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: slategray;
+  padding-bottom: 10px;
+}
+
+.arrowdown{
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid slategray;;
+  border-right: 5px solid transparent;
+  float: right;
+  display: block;
+  margin-top: 4px;
+  margin-right: 25px;
+}
+
+.freeshipping{
+  padding-left: 30px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: slategray;
+}
+
+.shippingtext{
+  padding-left: 30px;
+  padding-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: slategray;
+  line-height: 1.8;
+}
+
+.shippingimage{
+  height: 25px;
+  float: left;
+}
+
+.checkimg{
+  height: 20px;
+}
+
+.inCart{
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.inyourcart{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f1731f;
+  font-weight: bold;
+  font-size: 14px;
+}
