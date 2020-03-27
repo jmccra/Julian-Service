@@ -3,5 +3,5 @@ import ReactDOM from 'react-dom';
 import Checkout from './Checkout';
 
 
-ReactDOM.render(<Checkout />, document.getElementById('root'))
+ReactDOM.render(<Checkout />, document.getElementById('checkout'))
 
