@@ -7,13 +7,16 @@ export default class Checkout extends Component{
         super(props);
 
         this.state={
-          inCart : false
+          inCart : false,
+          count: 0
         }
         this.displayCart = this.displayCart.bind(this)
     }
 
     displayCart(){
-      this.setState({inCart: true})
+      let counter = this.state.count + 1;
+      this.setState({inCart: true, count: counter})
+      window.localStorage.setItem('count', counter)
     }
 
     render(){
